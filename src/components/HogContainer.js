@@ -5,7 +5,7 @@ class HogContainer extends React.Component {
   
   hogsArray = () => {
     return this.props.hogs.map((hog, idx) => {
-      return <Hog key={idx} hog={hog} addInfo={this.props.addInfo}/>
+      return <Hog key={idx} hog={hog} />
     })
   }
   
